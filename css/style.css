@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 1rem;
+  background-image: url("Pink.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;                  
+  background-position: center;   
+  color: #27221F;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+
+h1, h2, h3 {                            
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  color: #594545;
+  text-align: center;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-decoration: none;
+  text-decoration-color: #594545;
+}
+
+h3 {
+  font-size: 1.15rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
+a {
+  color: #594545;
+  font-weight: bold;
+  text-decoration-line: underline;
+  text-decoration-color: #594545;
+  background-color: transparent;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  background-color: #FDEDEE;
+  border-bottom: 0.25rem solid #594545;
+  padding: 2.5rem;
+  margin: -1rem -1rem 2rem;
+  text-align: center;
+}
+
+.header h1 {
+  margin-bottom: 0.25rem;
+}
+
+.header p {
+  margin: 0;
+  color: #594545;
+  font-style: italic;
+  text-align: center;
+}
+
+section {
+  max-width: 50rem;
+  margin: 0 auto 2rem;
+  padding: 2.25rem;
+  background-color: #FDEDEE;        
+  border: 0.2rem solid #594545;  
+  border-radius: 0.75rem;
+}
+
+.about-me img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.about-me p {
+  text-align: justify;
+}
+
+.Things-Like ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+.Things-Like li {
+  margin-bottom: 0.4rem;
+}
+
+.Things-Like li {
+  color: #594545;
+}
+
+.projects p {
+  text-align: center;
+}
+
+.artwork-project {                      
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.artwork-project img {
+  padding: 0.2rem;
+  background-color: #D9C5CE;
+  border: 0.15rem solid #594545;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+}
+
+.contact-info p {
+  text-align: center;
+}
+
+footer {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 2.5rem;
+  border-top: 0.15rem solid #594545;
+  color: #594545;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+
+@media (max-width: 36rem) {
+  section {
+    padding: 1.25rem;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+  }
+}
