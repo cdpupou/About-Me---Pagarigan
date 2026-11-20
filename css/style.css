@@ -4,7 +4,8 @@ body {
   background-image: url("../images/Pink.jpg");
   background-repeat: no-repeat;
   background-size: cover;                  
-  background-position: center;   
+  background-position: center; 
+  background-attachment: fixed;
   color: #27221F;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
